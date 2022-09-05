@@ -1,10 +1,15 @@
+.headerBg {
+  background-color: #fff;
+  box-shadow: 0px 15px 30px rgb(0 0 0 / 16%);
+  transition: 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition-property: background-color, box-shadow;
+}
 .header {
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1030;
-  background-color: transparent;
 
   .headerContainer {
     max-width: 1320px;

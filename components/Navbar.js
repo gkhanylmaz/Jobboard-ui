@@ -1,9 +1,24 @@
-import React from "react";
-import styles from "../styles/Header.module.scss";
+import React, { useState, useEffect } from "react";
+import styles from "../styles/Navbar.module.scss";
 
-const Header = () => {
+const Navbar = () => {
+  const [color, setColor] = useState(false);
+
+  useEffect(() => {
+    const changeColor = () => {
+      if (window.scrollY >= 80) {
+        setColor(true);
+      } else {
+        setColor(false);
+      }
+    };
+    window.addEventListener("scroll", changeColor);
+  }, []);
+
   return (
-    <div className={styles.header}>
+    <div
+      className={color ? `${styles.header} ${styles.headerBg}` : styles.header}
+    >
       <div className={styles.headerContainer}>
         <div className={styles.headerEdit}>
           <a href="">
@@ -41,4 +56,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;

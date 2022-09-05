@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from "../styles/Hero.module.scss";
-import heroImg from "../public/images/hero.jpg";
 
 const Hero = () => {
   return (
@@ -12,7 +11,13 @@ const Hero = () => {
           <br /> WordPress Theme
         </h1>
         <div className={styles.heroImg}>
-          <Image src={heroImg} alt={heroImg} />
+          <Image
+            src="https://pixelprime.co/themes/jobster-wp/images/hero.jpg"
+            alt="Home İmage"
+            height={1779}
+            width={3840}
+            className={styles.heroImage}
+          />
         </div>
       </div>
     </div>
