@@ -7,5 +7,6 @@ module.exports = {
   reactStrictMode: true,
   images: {
     domains: ["pixelprime.co"],
+    disableStaticImages: true,
   },
 };

@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "../styles/Demos.module.scss";
+import DemoCard from "./DemoCard";
+import data from "../data/data";
 
 const Demos = () => {
   return (
@@ -14,6 +16,12 @@ const Demos = () => {
         </div>
         <div className={styles.sectionNumber}>
           <div className={styles.number}> 07+</div>
+        </div>
+
+        <div className={styles.demoCards}>
+          {data?.map((item, index) => (
+            <DemoCard key={index} item={item} />
+          ))}
         </div>
       </div>
     </div>
