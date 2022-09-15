@@ -1,13 +1,25 @@
 .demoCard {
   flex: 0 0 auto;
   width: 33.33333333%;
-  padding: 3px;
+  a {
+    transition: all 0.3s ease-in-out;
+  }
 
   .cardImage {
-    img {
-      width: 100%;
-      height: auto;
-      border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    &:last-child {
+      border: 2px solid black;
+      box-shadow: none;
     }
+  }
+  .demoCardTitle {
+    color: #ffff;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
   }
 }

@@ -1,0 +1,50 @@
+.jobsSection {
+  margin-top: 100px;
+
+  .pxpContainer {
+    max-width: 1600px;
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .jobsRow {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .jobsTitle {
+    flex: 0 0 auto;
+    width: 33, 333333;
+  }
+  .jobsLabel {
+    font-size: 24px;
+    opacity: 0.7;
+    font-weight: 500;
+    letter-spacing: -1px;
+  }
+  h2 {
+    font-size: 52px;
+    letter-spacing: -2px;
+    font-weight: 700px;
+    span {
+      color: #1a90ff;
+    }
+  }
+  .jobsSubtitle {
+    font-size: 18px;
+    opacity: 0.7;
+    margin-top: 1.5rem !important;
+  }
+  .jobsNumber {
+    background: -webkit-linear-gradient(180deg, #1a90ff, #0d4880);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: -3px;
+    margin-top: 30px;
+  }
+}

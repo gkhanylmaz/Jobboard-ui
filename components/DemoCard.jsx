@@ -8,15 +8,9 @@ const DemoCard = ({ item }) => {
     <div className={styles.demoCard}>
       <a href="">
         <div className={styles.cardImage}>
-          <Image
-            src={img}
-            alt="Home İmage"
-            layout="responsive"
-            width={1020}
-            height={957}
-          />
+          <Image src={img} alt="Home İmage" width={1020} height={957} />
         </div>
-        <div className={styles.DemoCardTitle}>{title}</div>
+        <div className={styles.demoCardTitle}>{title}</div>
       </a>
     </div>
   );

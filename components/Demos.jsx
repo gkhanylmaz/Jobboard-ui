@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "../styles/Demos.module.scss";
+
 import DemoCard from "./DemoCard";
 import data from "../data/data";
 
 const Demos = () => {
   return (
     <div className={styles.demosSection}>
-      <div className={styles.demosContainer}>
+      <div className={styles.pxpContainer}>
         <div className={styles.demosTitle}>Content Demos</div>
         <h2>
           Beautifully crafted <span>demos</span> to <br /> help you get started.

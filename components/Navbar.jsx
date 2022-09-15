@@ -19,7 +19,7 @@ const Navbar = () => {
     <div
       className={color ? `${styles.header} ${styles.headerBg}` : styles.header}
     >
-      <div className={styles.headerContainer}>
+      <div className={styles.pxpContainer}>
         <div className={styles.headerEdit}>
           <a href="">
             {" "}

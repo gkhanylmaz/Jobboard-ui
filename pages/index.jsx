@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Demos from "../components/Demos";
 import Hero from "../components/Hero";
+import Jobs from "../components/Jobs";
 import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.scss";
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Demos />
+      <Jobs />
     </div>
   );
 }

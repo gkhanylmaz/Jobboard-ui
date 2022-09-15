@@ -1,0 +1,26 @@
+.JobsCards {
+  margin-top: 100px;
+
+  .pxpContainer {
+    max-width: 1600px;
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .Cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .Card {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .pxpFeature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+}

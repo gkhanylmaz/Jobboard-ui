@@ -1,35 +1,35 @@
 const data = [
   {
-    img: "https://pixelprime.co/themes/jobster-wp/images/demo-1.jpg",
+    img: "/images/demo-1.jpg",
     title: "Demo 1 - Animated cards hero",
   },
   {
-    img: "https://pixelprime.co/themes/jobster-wp/images/demo-2.jpg",
+    img: "/images/demo-2.jpg",
     title: "Demo 1 - Animated cards hero",
   },
   {
-    img: "https://pixelprime.co/themes/jobster-wp/images/demo-3.jpg",
+    img: "/images/demo-3.jpg",
     title: "Demo 1 - Animated cards hero",
   },
   {
-    img: "https://pixelprime.co/themes/jobster-wp/images/demo-4.jpg",
+    img: "/images/demo-4.jpg",
     title: "Demo 1 - Animated cards hero",
   },
   {
-    img: "https://pixelprime.co/themes/jobster-wp/images/demo-5.jpg",
+    img: "/images/demo-5.jpg",
     title: "Demo 1 - Animated cards hero",
   },
   {
-    img: "https://pixelprime.co/themes/jobster-wp/images/demo-6.jpg",
+    img: "/images/demo-6.jpg",
     title: "Demo 1 - Animated cards hero",
   },
   {
-    img: "https://pixelprime.co/themes/jobster-wp/images/demo-7.jpg",
+    img: "/images/demo-7.jpg",
     title: "Demo 1 - Animated cards hero",
   },
   {
-    img: "https://pixelprime.co/themes/jobster-wp/images/demo-more.png",
-    title: "Demo 1 - Animated cards hero",
+    img: "/images/demo-more.png",
+    title: "More to come...",
   },
 ];
 
