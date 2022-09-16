@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "../styles/Jobs.module.scss";
+import styles from "../styles/JobList.module.scss";
 import JobsCard from "./JobsCard";
 
-const Jobs = () => {
+const JobList = () => {
   return (
     <div className={styles.jobsSection}>
       <div className={styles.pxpContainer}>
@@ -30,4 +30,4 @@ const Jobs = () => {
   );
 };
 
-export default Jobs;
+export default JobList;

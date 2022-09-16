@@ -1,8 +1,9 @@
 import Head from "next/head";
 import Demos from "../components/Demos";
 import Hero from "../components/Hero";
-import Jobs from "../components/Jobs";
+import JobList from "../components/JobList";
 import Navbar from "../components/Navbar";
+import SingleJob from "../components/SingleJob";
 import styles from "../styles/Home.module.scss";
 
 export default function Home() {
@@ -16,7 +17,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Demos />
-      <Jobs />
+      <JobList />
+      <SingleJob />
     </div>
   );
 }
