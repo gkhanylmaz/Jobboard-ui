@@ -1,4 +1,5 @@
 import Head from "next/head";
+import CompaniesList from "../components/CompaniesList";
 import Demos from "../components/Demos";
 import Hero from "../components/Hero";
 import JobList from "../components/JobList";
@@ -19,6 +20,7 @@ export default function Home() {
       <Demos />
       <JobList />
       <SingleJob />
+      <CompaniesList />
     </div>
   );
 }
